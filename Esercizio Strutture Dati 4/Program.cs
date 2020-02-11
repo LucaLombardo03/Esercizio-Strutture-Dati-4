@@ -16,7 +16,7 @@ namespace Esercizio_Strutture_Dati_4
                 {
                     using (StreamReader sr = new StreamReader(file))
                     {
-                        string line;
+                        string line; 
                         while ((line = sr.ReadLine()) != null)
                         {
                             if (line.Contains(valore))
